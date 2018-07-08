@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Neighbourhood Project</title>
+    <link media="screen and (min-width: 500px)" href="500style.css" rel="stylesheet">
+    <link media="screen and (max-width: 500px)" href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <div class="menu" data-bind="click : toggleOptionBox">
+        <div class="menu-icon"></div>
+        <div class="menu-icon"></div>
+        <div class="menu-icon"></div>
+      </div>
+    </nav>
+    <aside>
+    <div class='options-box hidden-menu'>
+      <input class='search-box' type='text' placeholder='Ex: Church Complex, Ranchi' data-bind="textinput : searchInput">
+      <input class='hide-markers' type='button' value='hide markers' data-bind="click : hideMarkers">
+      <input class='show-markers' type='button' value='show markers' data-bind="click : showMarkers">
+      <div data-bind="foreach: neighbourhoodList" class="list">
+        <ul id='location-list'>
+          <li data-bind="text : title,click : $parent.selectListItem,visible : showTitle">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </aside>
+    <main>
+      <article>
+    <div class='map' id='map'>
+    </div>
+  </article>
+</main>
+<footer>
+    <div id='extractDiv' data-bind="html : extract">
+    </div>
+  </footer>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js" onerror="alert('not connected to internet')"></script>
+    <script type='text/javascript' src='knockout-3.4.2.js'></script>
+    <script src="js/app.js" type="text/javascript"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?libraries=places,geometry,drawing&key=123" onerror="gmapError()">
+    </script>
+  </body>
+</html>

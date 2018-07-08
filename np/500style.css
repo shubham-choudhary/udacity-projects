@@ -1,0 +1,90 @@
+html,
+body {
+  font-family: Arial, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100%;
+  position: relative;
+}
+
+.menu {
+  width: 10%;
+  z-index: 3;
+  position: absolute;
+}
+
+.menu-icon{
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+  opacity: .7;
+  cursor: cell;
+}
+
+.hidden-menu{
+  display: none;
+}
+
+input {
+  font-size: 12px;
+}
+
+h1 {
+  color: #525454;
+  font-size: 22px;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+#hide-markers,
+#show-markers {
+  width: 48%;
+}
+
+hr {
+  background: #D0D7D9;
+  height: 1px;
+  margin: 20px 0 20px 0;
+  border: none;
+}
+
+#map {
+  bottom:0px;
+  height: 100%;
+  left: 1%;
+  position: absolute;
+  right: 0px;
+  z-index: 1;
+}
+
+.options-box {
+  top: 10%;
+  background: #000;
+  border: 1px solid #999;
+  border-radius: 3px;
+  height: 85%;
+  line-height: 35px;
+  padding: 10px 10px 30px 10px;
+  text-align: left;
+  width: 29%;
+  position: absolute;
+  color: #fff;
+  opacity: .7;
+  z-index: 2;
+}
+
+.search-box{
+  width: 40%;
+}
+
+#extractDiv {
+  position: absolute;
+  color: #000;
+  background: #fff;
+  top: 100%;
+}

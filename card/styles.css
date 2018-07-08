@@ -1,0 +1,36 @@
+/* add your CSS here */
+body {
+  border:hidden;
+  width: 320px;
+  padding:0 300px 300px 300px;
+}
+.interesting-fact {
+  font-style: italic;
+}
+li {
+  list-style: none;
+}
+span {
+  font-weight: bold;
+}
+img {
+  border:solid;
+  border-color:grey;
+  border-width: thin;
+  width:300px;
+}
+.about {
+  border: solid;
+  border-color:grey;
+  padding: 10px
+}
+h3 {
+  border:hidden;
+  border-color:grey;
+  padding-left: 10px;
+}
+#div {
+  border:solid;
+  border-color: brown;
+  padding:10px;
+}

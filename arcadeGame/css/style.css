@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+}
+
+.char {
+  opacity: .7;
+  width: 600px;
+  height: 600px;
+  background: #ccf;
+  position: absolute;
+  padding: 10px;
+  margin: auto;
+  top: 20px;
+  left: 350px;
+  overflow: scroll;
+  color: black;
+}
+
+.gameStory {
+  opacity: .9;
+  width: 600px;
+  height: 600px;
+  background: #ccf;
+  position: absolute;
+  padding: 10px;
+  margin: auto;
+  top: 20px;
+  left: 350px;
+  overflow: scroll;
+  color: black;
+}
+
+button {
+  width: 50px;
+  height: 20px;
+}
+.winner {
+  opacity: .8;
+  width: 800px;
+  height: 650px;
+  background: linear-gradient(to bottom right,red,yellow);
+  font-size: 60px;
+  font-family: inherit;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  color: blue;
+  position: absolute;
+  top: 10px;
+  left: 280px;
+}
+
+.go {
+  opacity: .9;
+  width: 800px;
+  height: 650px;
+  background: linear-gradient(to bottom right,blue,gray);
+  font-size: 60px;
+  font-family: inherit;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  color: blanchedalmond;
+  position: absolute;
+  top: 10px;
+  left: 280px;
+}
+
+.timesUp {
+  opacity: .9;
+  width: 800px;
+  height: 650px;
+  background: linear-gradient(to bottom right,black,gray);
+  font-size: 60px;
+  font-family: inherit;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  color: magenta;
+  position: absolute;
+  top: 10px;
+  left: 280px;
+}
+
+iframe {
+  width: 1500px;
+  height: 1000px;
+  position: absolute;
+  top: 00px;
+  left: 00px;
+  border: 0px;
+  margin: 2px;
+}

@@ -1,0 +1,77 @@
+body {
+  margin: 0 0 0 0;
+  background-color: #2d3c49;
+  width: 100vw;
+  padding: 2px
+}
+.row {
+  margin: 2px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  text-transform: capitalize;
+  font-weight: bolder;
+  font-family: 'Berkshire Swash', cursive;
+  color: yellow;
+}
+
+.svg {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+h1 {
+  position: relative;
+  padding: 5px;
+  text-align: right;
+}
+.credential {
+  font-size: 1.5em;
+  text-align: right;
+  margin: 20px 5px 2px;
+}
+h4, p, ul {
+  font-size: 2em;
+  font-weight: bolder;
+  font-family: 'Berkshire Swash', cursive;
+  color: yellow;
+  padding: 2px 2px 1px 1px;
+}
+img {
+  width: 100%;
+  padding: 5px;
+  margin: 5px;
+}
+.picture1 {
+  float: right;
+  padding: 10px;
+}
+.work_title {
+  text-transform: capitalize;
+  font-family: 'Berkshire Swash', cursive;
+  color: yellow;
+}
+hr {
+  margin: 0;
+  height: 20px;
+}
+.featured_works {
+  display: block;
+  margin: 10px 10px 10px 10px;
+}
+
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+li {
+  display: flex;
+  margin: 10px;
+  position:relative;
+  font-size: 5rem;
+  line-height: 1.5em;
+  font-weight:bold;
+  padding: 5px;
+}

@@ -1,0 +1,22 @@
+*{
+  border: hidden red;
+}
+.row {
+  display: flex;
+  padding:10px;
+}
+.col-10 {
+  padding: 10px;
+  font-family: sans-serif;
+}
+.col-4 {
+  width: 300px;
+  height: 150px;
+  margin: 10px;
+  text-align: center;
+}
+.col-4 img{
+  width: 300px;
+  height: 150px;
+  margin: 10px;
+}
